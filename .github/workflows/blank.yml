@@ -34,4 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-        script: $CI_PAGES_URL
+#        script: $CI_PAGES_URL
+      - name: test
+        run: echo $CI_PAGES_URL
